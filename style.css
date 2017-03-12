@@ -1,0 +1,114 @@
+body {
+  width: 100%;
+  height: auto;
+  background-color: #f4e8d8;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#name {
+  color: #3e2a33;
+  top: 50%;
+  width: 100%;
+  min-width: 400px;
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 0;
+}
+
+#pronunciation {
+  font-style: italic;
+  color: #b0acac;
+  min-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.livingRoom {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  min-width: 300px;
+  min-height: 300px:
+  vertical-align: middle;
+  margin: 0 auto 0 auto;
+
+}
+
+.topLeftFrame {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 5%;
+  left: 8%;;
+}
+
+.bottomLeftFrame {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 30%;
+  left: 8%;
+}
+
+.centerFrame{
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 10%;
+  left: 30%;
+}
+
+.centerFrame img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#roseCurve {
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+
+.topRightFrame {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 5%;
+  right: 8%;
+}
+
+.bottomRightFrame {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 30%;
+  right: 8%;
+}
+
+.chair{
+  position: absolute;
+  width: 40%;
+  height: auto;
+  bottom: 0%;
+  left: 30%;
+}
+
+.chair img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.plant {
+  position: absolute;
+  bottom: -5px;
+  right: 15%;
+}
+
+footer {
+  background-color: #80656D;
+  z-index: 2;
+}
