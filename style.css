@@ -96,7 +96,7 @@ body {
 
 .chair{
   position: absolute;
-  bottom: 0%;
+  bottom: 0px;
   left: 30%;
 }
 
@@ -108,9 +108,7 @@ body {
 
 .plant {
   position: absolute;
-  width: 20%;
-  height: 25%;
-  bottom: 0%;
+  bottom: 0px;
   right: 15%;
 }
 
@@ -118,16 +116,10 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  fill: #b0acac;
 }
 
 #roseCurve {
   position: absolute;
   top: 25%;
   right: 25%;
-}
-
-footer {
-  background-color: #80656D;
-  z-index: 2;
 }
