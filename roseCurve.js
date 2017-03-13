@@ -26,5 +26,5 @@ function mouseClicked() {
     a = 0;
     n = Math.floor((Math.random() * 8) + 1);
     d = Math.floor((Math.random() * 8) + 1);
-    background('#3e2a33');
+    background('#022d41');
   }

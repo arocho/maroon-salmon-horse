@@ -1,14 +1,14 @@
 body {
   width: 100%;
   height: auto;
-  background-color: #3e2a33;
+  background-color: #022d41;
   font-family: Candara, sans-serif;
   text-align: center;
   vertical-align: middle;
 }
 
 #name {
-  color: #6eac6a;
+  color: #daecf3;
   font-size: 50px;
   top: 50%;
   width: 100%;
@@ -20,7 +20,7 @@ body {
 
 #pronunciation {
   font-style: italic;
-  color: #b06c7d;
+  color: #1aa6b7;
   min-width: 400px;
   text-align: center;
   margin: 0 auto;
