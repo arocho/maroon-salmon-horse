@@ -7,7 +7,7 @@ body {
   vertical-align: middle;
 }
 
-#name {
+.name {
   color: #daecf3;
   top: 50%;
   width: 100%;
@@ -17,7 +17,7 @@ body {
   margin-top: 5%;
 }
 
-#pronunciation {
+.pronunciation {
   font-style: italic;
   color: #1aa6b7;
   min-width: 400px;
@@ -93,13 +93,13 @@ body {
   height: 100%;
 }
 
-.chair{
+.chair {
   position: absolute;
-  bottom: 0px;
   left: 30%;
+  bottom: 0;
 }
 
-.chair img{
+.chair img {
   position: relative;
   width: 100%;
   height: 100%;
@@ -107,8 +107,8 @@ body {
 
 .plant {
   position: absolute;
-  bottom: 0px;
   right: 15%;
+  bottom: 0;
 }
 
 .plant img {
@@ -117,7 +117,7 @@ body {
   height: 100%;
 }
 
-#roseCurve {
+.roseCurve {
   position: absolute;
   top: 25%;
   right: 25%;
