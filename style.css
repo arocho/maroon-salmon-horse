@@ -117,7 +117,7 @@ body {
   height: 100%;
 }
 
-.roseCurve {
+#roseCurve {
   position: absolute;
   top: 25%;
   right: 25%;
