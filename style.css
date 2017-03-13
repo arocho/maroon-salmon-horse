@@ -9,7 +9,6 @@ body {
 
 .name {
   color: #daecf3;
-  top: 50%;
   width: 100%;
   min-width: 400px;
   text-align: center;
@@ -29,7 +28,6 @@ body {
   position: relative;
   width: 400px;
   height: 400px;
-  vertical-align: middle;
   margin: 0 auto 0 auto;
 }
 
