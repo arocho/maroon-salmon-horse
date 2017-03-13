@@ -28,7 +28,7 @@ body {
   position: relative;
   width: 400px;
   height: 400px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 .topLeftFrame {
@@ -94,7 +94,7 @@ body {
 .chair {
   position: absolute;
   left: 30%;
-  bottom: 0;
+  top: 60%;
 }
 
 .chair img {
@@ -105,8 +105,8 @@ body {
 
 .plant {
   position: absolute;
+  top: 75%;
   right: 15%;
-  bottom: 0;
 }
 
 .plant img {
