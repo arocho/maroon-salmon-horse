@@ -10,7 +10,7 @@ function setup() {
 function draw() {
 
   translate((width / 2), (height / 2));
-  stroke(128,101,109);
+  stroke('#b9ffb1');
   strokeWeight(2);
 
   if(a < (TWO_PI * d)) {
@@ -26,5 +26,5 @@ function mouseClicked() {
     a = 0;
     n = Math.floor((Math.random() * 8) + 1);
     d = Math.floor((Math.random() * 8) + 1);
-    background('#f4e8d8');
+    background('#3e2a33');
   }
