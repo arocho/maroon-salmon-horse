@@ -7,12 +7,15 @@ body {
   vertical-align: middle;
 }
 
+.name, .pronunciation {
+  min-width: 400px;
+  text-align: center;
+}
+
 .name {
   font-size: 45px;
   color: #daecf3;
   width: 100%;
-  min-width: 400px;
-  text-align: center;
   margin-bottom: 0;
   margin-top: 8%;
 }
@@ -20,8 +23,6 @@ body {
 .pronunciation {
   font-style: italic;
   color: #1aa6b7;
-  min-width: 400px;
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -33,135 +34,89 @@ body {
   border-bottom: 5px solid #b9ffb1;
 }
 
+.topLeftFrame, .topRightFrame {
+  height: 25%;
+  position: absolute;
+  top: 3%;
+}
+
 .topLeftFrame {
-  position: absolute;
-  height: 25%;
-  top: 5%;
   left: 5%;
 }
 
-.topLeftFrame img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.linkedin img {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 70px;
-  height: 70px;
-  z-index: 1;
-}
-
-.bottomLeftFrame {
-  position: absolute;
-  height: 25%;
-  top: 30%;
-  left: 5%;
-}
-
-.bottomLeftFrame img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.github img {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 70px;
-  height: 70px;
-  z-index: 1;
+.topRightFrame {
+  right: 5%;
 }
 
 .centerFrame{
   position: absolute;
   height: 40%;
-  top: 10%;
+  top: 12%;
   left: 30%;
 }
 
-.centerFrame img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.topRightFrame {
-  position: absolute;
+.bottomLeftFrame, .bottomRightFrame {
   height: 25%;
-  top: 5%;
-  right: 5%;
-}
-
-.topRightFrame img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.twitter img {
   position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 70px;
-  height: 70px;
-  z-index: 1;
+  top: 35%;
+}
+
+.bottomLeftFrame {
+  left: 5%;
 }
 
 .bottomRightFrame {
-  position: absolute;
-  height: 25%;
-  top: 30%;
   right: 5%;
 }
 
-.bottomRightFrame img {
+.frameContainer {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  height: 75%;
+  text-align: center;
+  width: 75%;
+}
+
+/*frame.svg*/
+.frameFile {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.email img {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 70px;
-  height: 70px;
+/*icons*/
+.frameContainer img {
+  position: relative;
+  height: 100%;
+  width: 100%;
   z-index: 1;
 }
 
-.chair {
+#chair {
   position: absolute;
   height: 40%;
   left: 30%;
   bottom: 0;
 }
 
-.chair img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.plant {
+#plant {
   position: absolute;
   height: 25%;
   bottom: 0;
   right: 15%;
 }
 
-.plant img {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
 #roseCurve {
   position: absolute;
   top: 25%;
   right: 25%;
+}
+
+#connect, #tweet, #fork, #mail {
+  position: relative;
+  color: #daecf3;
+  text-align: center;
+  margin: 0;
+  padding: 5%;
 }

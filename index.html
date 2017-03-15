@@ -3,6 +3,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <meta name=viewport content='width=500'>
+  <style> body {padding: 0; margin: 0;} </style>
 <head>
 <body>
   <h1 class="name">Allison Martínez Arocho</h1>
@@ -10,56 +11,62 @@
   <div class="livingRoom">
 
     <div class="topLeftFrame">
-      <img src="img/frame_100.svg">
-      <div class="linkedin">
+      <img class="image" src="img/frame_100.svg">
+      <div class="frameContainer">
         <a href="https://linkedin.com/in/allisonarocho" target="_blank">
-          <img src="img/briefcase.svg">
+          <img class="frameImage" src="img/briefcase.svg">
+          <p id="connect"> Connect </p>
         </a>
       </div>
     </div>
 
     <div class="bottomLeftFrame">
-      <img src="img/frame_100.svg">
-      <div class="github">
+      <img class="image" src="img/frame_100.svg">
+      <div class="frameContainer">
         <a href="https://github.com/arocho" target="_blank">
           <img src="img/git.svg">
+          <p id="fork"> Fork </p>
         </a>
       </div>
     </div>
 
     <div class="centerFrame">
-      <img src="img/frame_160.svg">
+      <img class="image" src="img/frame_160.svg">
       <div id="roseCurve">
       </div>
       </img>
     </div>
 
     <div class="topRightFrame">
-      <img src="img/frame_100.svg">
-      <div class="twitter">
+      <img class="image" src="img/frame_100.svg">
+      <div class="frameContainer">
         <a href="https://twitter.com/vamoavel" target="_blank">
-          <img src="img/tweeter.svg">
+          <img class="frameImage" src="img/tweeter.svg">
+          <p id="tweet"> Tweet </p>
         </a>
       </div>
     </div>
 
     <div class="bottomRightFrame">
-      <img src="img/frame_100.svg">
-      <div class="email">
+      <img class="image" src="img/frame_100.svg">
+      <div class="frameContainer">
         <a href="mailto: alli.arocho@gmail.com">
-          <img src="img/mail.svg">
+          <img class="frameImage" src="img/mail.svg">
+          <p id="mail"> Mail </p>
         </a>
       </div>
     </div>
 
-    <div class="chair">
+    <div class="image" id="chair">
       <img src="img/sofa_160.svg">
     </div>
 
-    <div class="plant">
+    <div class="image" id="plant">
       <img src="img/plant.svg">
     </div>
   </div>
+
+
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
   <script language="javascript" type="text/javascript" src="roseCurve.js"></script>
 </body>

@@ -1,14 +1,17 @@
-var a = 0;
-var index = 0;
-var i = 0;
-//Four n/d values for specific rose curves
+//Four numerator/denomenator values for specific rose curves
 var n = new Array(2, 2, 3, 1);
 var d = new Array(7, 3, 2, 6);
+
+//Rose curve parameters
+var theta = 0;
+var index = 0;
+var enhancer = 40;
+var rateOfChange = 0.09;
+
+//Canvas values
+var dimension = 80;
 var strokeColor = '#b9ffb1';
 var bgColor = '#022d41';
-var enhancer = 40;
-var dimension = 80;
-var rateOfChange = 0.09;
 
 function setup() {
   var canvas = createCanvas(dimension, dimension);
@@ -20,20 +23,21 @@ function draw() {
   stroke(strokeColor);
   strokeWeight(2);
 
-  if(a < (TWO_PI * d[i])) {
-    var r = enhancer * cos((n[i] / d[i]) * a);
-    var x = r * cos(a);
-    var y = r * sin(a);
+  //Rose curve formula
+  if(theta < (TWO_PI * d[index])) {
+    var radius = enhancer * cos((n[index] / d[index]) * theta);
+    var x = radius * cos(theta);
+    var y = radius * sin(theta);
     point(x, y);
-    a += rateOfChange;
+    theta += rateOfChange;
   }
 }
 
 function mouseClicked() {
-    a = 0;
+    theta = 0;
     background(bgColor);
-    i++;
-    if (i == n.length) {
-      i = 0;
+    index++;
+    if (index == n.length) {
+      index = 0;
     }
   }
